@@ -61,5 +61,5 @@ name=NATION_NAME : 국가 이름을 입력하면 해당 국가의 정보를 반�
 
 Returns:
 ```
-name, member_count, capital, towns, allies, enemies, registered, nationBoard, nationSpawn
+name, member_count, capital, leader, towns, allies, enemies, registered, nationBoard, nationSpawn
 ```
