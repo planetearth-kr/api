@@ -30,7 +30,6 @@ discord, uuid, name
 
 Available parameters:
 ```
-town=TOWN_NAME : 마을 이름을 입력하면 해당 마을에 소속되어있는 모든 유저의 정보를 반환합니다.
 uuid=UUID : UUID를 입력하면 해당 유저의 정보를 반환합니다.
 name=IGN : 닉네임을 입력하면 해당 유저의 정보를 반환합니다.
 ```
@@ -44,22 +43,24 @@ name, town, town-ranks, nation-ranks, lastOnline, registered, title, surname, jo
 
 Available parameters:
 ```
+uuid=TOWN_UUID : 마을 UUID를 입력하면 해당 마을의 정보를 반환합니다.
 name=TOWN_NAME : 마을 이름을 입력하면 해당 마을의 정보를 반환합니다.
 ```
 
 Returns:
 ```
-name, member_count, mayor, nation, residents, townBoard, trustedResidents, outlaws, registered, joinedNationAt, founder, spawn
+name, member_count, mayor, nation, residents, townBoard, trustedResidents, outlaws, registered, joinedNationAt, founder, spawn, uuid
 ```
 
 ### https://planetearth.kr/api/nation.php
 
 Available parameters:
 ```
+uuid=NATION_UUID : 국가 UUID를 입력하면 해당 마을의 정보를 반환합니다.
 name=NATION_NAME : 국가 이름을 입력하면 해당 국가의 정보를 반환합니다.
 ```
 
 Returns:
 ```
-name, member_count, capital, leader, towns, allies, enemies, registered, nationBoard, nationSpawn
+name, member_count, capital, leader, towns, allies, enemies, registered, nationBoard, nationSpawn, uuid
 ```
