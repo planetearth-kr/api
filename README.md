@@ -9,10 +9,10 @@ key=API_KEY : API에 접근하기 위한 인증 키입니다. 플래닛어스 �
 
 Example:
 ```
-https://planetearth.kr/api/discord.php?key=JUSTANEXAMPLEKEY&name=Irochi_
+https://planetearth.kr/api/discord?key=JUSTANEXAMPLEKEY&name=Irochi_
 ```
 
-### https://planetearth.kr/api/discord.php
+### https://planetearth.kr/api/discord
 
 Available parameters:
 ```
@@ -26,7 +26,7 @@ Returns:
 discord, uuid, name
 ```
 
-### https://planetearth.kr/api/resident.php
+### https://planetearth.kr/api/resident
 
 Available parameters:
 ```
@@ -39,7 +39,7 @@ Returns:
 name, town, town-ranks, nation-ranks, lastOnline, registered, title, surname, joinedTownAt, friends, uuid
 ```
 
-### https://planetearth.kr/api/town.php
+### https://planetearth.kr/api/town
 
 Available parameters:
 ```
@@ -49,10 +49,10 @@ name=TOWN_NAME : 마을 이름을 입력하면 해당 마을의 정보를 반환
 
 Returns:
 ```
-name, member_count, mayor, nation, residents, townBoard, trustedResidents, outlaws, registered, joinedNationAt, founder, spawn, uuid
+name, member_count, mayor, nation, residents, townBoard, trustedResidents, outlaws, registered, joinedNationAt, founder, spawn, claimSize, uuid
 ```
 
-### https://planetearth.kr/api/nation.php
+### https://planetearth.kr/api/nation
 
 Available parameters:
 ```
