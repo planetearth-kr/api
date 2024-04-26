@@ -36,7 +36,7 @@ name=IGN : 닉네임을 입력하면 해당 유저의 정보를 반환합니다.
 
 Returns:
 ```
-name, town, town-ranks, nation-ranks, lastOnline, registered, title, surname, joinedTownAt, friends, uuid
+name, town, townRanks, nationRanks, lastOnline, registered, title, surname, joinedTownAt, friends, uuid
 ```
 
 ### https://planetearth.kr/api/town
@@ -49,7 +49,7 @@ name=TOWN_NAME : 마을 이름을 입력하면 해당 마을의 정보를 반환
 
 Returns:
 ```
-name, member_count, mayor, nation, residents, townBoard, trustedResidents, outlaws, registered, joinedNationAt, founder, spawn, claimSize, uuid
+name, memberCount, mayor, nation, residents, townBoard, trustedResidents, outlaws, registered, joinedNationAt, founder, spawn, claimSize, uuid
 ```
 
 ### https://planetearth.kr/api/nation
@@ -62,5 +62,5 @@ name=NATION_NAME : 국가 이름을 입력하면 해당 국가의 정보를 반�
 
 Returns:
 ```
-name, member_count, capital, leader, towns, allies, enemies, registered, nationBoard, nationSpawn, uuid
+name, memberCount, capital, leader, towns, allies, enemies, registered, nationBoard, nationSpawn, uuid
 ```
