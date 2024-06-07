@@ -31,12 +31,13 @@ discord, uuid, name
 Available parameters:
 ```
 uuid=UUID : UUID를 입력하면 해당 유저의 정보를 반환합니다.
+town=TOWN_NAME : 마을 이름을 입력하면 해당 마을 소속 유저의 정보를 반환합니다.
 name=IGN : 닉네임을 입력하면 해당 유저의 정보를 반환합니다.
 ```
 
 Returns:
 ```
-name, town, townRanks, nationRanks, lastOnline, registered, title, surname, joinedTownAt, friends, ranks, uuid
+name, town, townRanks, nationRanks, lastOnline, registered, title, surname, joinedTownAt, friends, uuid
 ```
 
 ### https://planetearth.kr/api/town
