@@ -1,3 +1,6 @@
+> [!WARNING]
+API 문서가  [공식 가이드](https://docs.planetearth.kr/api)로 이사갑니다!<br>
+이 저장소는 더이상 업데이트되지 않습니다. 공식 문서 및 디스코드에 올라오는 변경사항을 항상 확인해주세요!
 # PlanetEarth API
 오픈월드 타우니 지구서버 플래닛어스 공식 API 입니다. 모든 정보는 JSON 형식으로 반환됩니다.
 
