@@ -36,7 +36,7 @@ name=IGN : 닉네임을 입력하면 해당 유저의 정보를 반환합니다.
 
 Returns:
 ```
-name, town, townRanks, nationRanks, lastOnline, registered, title, surname, joinedTownAt, friends, uuid
+name, town, townRanks, nationRanks, lastOnline, registered, title, surname, joinedTownAt, friends, ranks, uuid
 ```
 
 ### https://planetearth.kr/api/town
